@@ -1,0 +1,46 @@
+# --- 1. Theme & Fonts ---
+include zathura-catppuccin-macchiato
+
+set font                    "JetBrainsMono Nerd Font 10"
+set guioptions              ""
+set selection-clipboard     "clipboard"
+
+# --- 2. UI Colors (Notifications, Completion, Statusbar) ---
+set notification-error-bg       "#24273A"
+set notification-error-fg       "#ED8796"
+set notification-warning-bg     "#24273A"
+set notification-warning-fg     "#EED49F"
+set notification-bg             "#24273A"
+set notification-fg             "#CAD3F5"
+
+set completion-bg               "#1E2030"
+set completion-fg               "#CAD3F5"
+set completion-group-bg         "#1E2030"
+set completion-group-fg         "#8AADF4"
+set completion-highlight-bg     "#363A4F"
+set completion-highlight-fg     "#CAD3F5"
+
+set inputbar-bg                 "#1E2030"
+set inputbar-fg                 "#CAD3F5"
+
+set statusbar-bg                "#1E2030"
+set statusbar-fg                "#CAD3F5"
+
+set default-bg                  "#24273A"
+set default-fg                  "#CAD3F5"
+
+# --- 3. PDF Recolor (Dark Mode) ---
+set recolor                     "true"
+set recolor-lightcolor          "#24273A"
+set recolor-darkcolor           "#CAD3F5"
+set recolor-keephue             "true"      # Keeps highlights from becoming unreadable purple
+
+# --- 4. Search & SyncTeX Highlights ---
+# Soft transparent yellow/orange that lets text shine through
+set highlight-color             "rgba(255, 235, 59, 0.3)"
+set highlight-active-color      "rgba(255, 165, 0, 0.4)"
+set highlight-fg                "#000000"
+
+# Fixes the blocky highlights in the index/table of contents
+set index-active-bg             "rgba(255, 235, 59, 0.3)"
+set index-active-fg             "#CAD3F5"
